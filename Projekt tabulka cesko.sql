@@ -31,7 +31,7 @@ CREATE OR REPLACE VIEW v_czechia_prices AS
 	GROUP BY czprice.category_code, 
 		YEAR(czprice.date_from);
 
--- Vytvoření výsledné tabulky spojením předchozích náhledů 
+-- Vytvoření výsledné tabulky spojením předchozích pohledů 
 	
 CREATE OR REPLACE TABLE t_pavel_konir_project_SQL_primary_final AS
 	SELECT *
