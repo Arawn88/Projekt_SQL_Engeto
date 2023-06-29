@@ -1,7 +1,7 @@
 -- 1.Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
 
 /*
- * V letech 2009,2010,2011,2013,2014,2016 byl zazamenán meziroční pokles mezd.
+ * V letech 2009,2010,2011,2013,2014,2016 byl zaznamenán meziroční pokles mezd.
  * Největší propad ve mzdách vidíme v roce 2013, kde bylo meziročním poklesem mezd postihnuto celkem 11 z 19 měřených odvětví. 
  */
 

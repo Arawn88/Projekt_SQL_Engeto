@@ -1,4 +1,4 @@
--- Vytvoření tabulky t_pavel_konir_project_SQL_secondary_final AS
+-- Vytvoření tabulky t_pavel_konir_project_SQL_secondary_final
 
 CREATE OR REPLACE TABLE t_pavel_konir_project_SQL_secondary_final AS
 	SELECT 
