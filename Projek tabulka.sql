@@ -1,6 +1,7 @@
 -- t_Pavel_Konir_project_SQL_primary_final 
 -- (pro data mezd a cen potravin za Českou republiku sjednocených na totožné porovnatelné období – společné roky)
 
+-- Vytvoření pohledu pro získání přehledu výplat pro odvětví v daném roce. 
 
 CREATE OR REPLACE VIEW v_czechia_payroll AS
 	SELECT
@@ -14,6 +15,8 @@ CREATE OR REPLACE VIEW v_czechia_payroll AS
 	WHERE czpayroll.value_type_code = 5958
 	GROUP BY czpayroll.industry_branch_code, czpayroll.payroll_year
 	ORDER BY czpayroll.payroll_year, czpayroll.industry_branch_code;
+
+-- Vytvoření pohledu pro získání přehledu cen produktů v daném roce. 
 
 CREATE OR REPLACE VIEW v_czechia_prices AS
 	SELECT 
